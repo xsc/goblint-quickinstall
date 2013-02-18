@@ -6,6 +6,7 @@ QuickInstall script for Goblint Analyzer (includes OPAM QuickInstall).
 
 * [OCaml](http://ocaml.org/) >= 4.00.1
 * [Git](http://git-scm.com/)
+* [GNU M4](http://www.gnu.org/software/m4/)
 * [GNU Bash](http://www.gnu.org/software/bash/) >= 3 (?)
 
 ## What is installed/fetched?
@@ -22,18 +23,18 @@ QuickInstall script for Goblint Analyzer (includes OPAM QuickInstall).
 
 ### OPAM + Goblint
 ```
-curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > install.sh && bash install.sh goblint
+curl -kL https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh | bash -s goblint
 ```
 This will download the QuickInstall script and install OPAM system-wide (will prompt for superuser privileges) and Goblint into the subdirectory ```goblint``` using the latest commit in the [Goblint Repository](https://github.com/goblint/analyzer).
 
 ### Only OPAM
 ```
-curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > install.sh && bash install.sh --opam-only
+curl -kL https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh | bash -s -- --opam-only
 ```
 
 ### Full Goblint Checkout
 ```
-curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > install.sh && bash install.sh --full-clone goblint
+curl -kL https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh | bash -s -- --full-clone goblint
 ```
 This will create a full clone of the Goblint Repository in the ```goblint``` subdirectory. 
 (OPAM will be installed, too).
