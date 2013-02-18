@@ -41,4 +41,5 @@ This will create a full clone of the Goblint Repository in the ```goblint``` sub
 ## License
 
 Copyright &copy; 2013 Yannick Scherer
+
 Distributed under the Eclipse Public License.
