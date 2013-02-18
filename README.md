@@ -38,3 +38,7 @@ curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > i
 This will create a full clone of the Goblint Repository in the ```goblint``` subdirectory. 
 (OPAM will be installed, too).
 
+## License
+
+Copyright &copy; 2013 Yannick Scherer
+Distributed under the Eclipse Public License.
