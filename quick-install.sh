@@ -130,7 +130,7 @@ else
 fi
 eval `opam config env`
 
-if [[ "$opamOnly" == "1" ]]; then echo "Done."; exit 0; fi
+if [[ "$opamOnly" == "1" ]]; then exit 0; fi
 
 # --------------------------------------------------------------
 # Installing Dependencies via OPAM
