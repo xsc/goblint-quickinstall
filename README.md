@@ -33,8 +33,7 @@ curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > i
 
 ### Full Goblint Checkout
 ```
-curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > install.sh && \
-bash install.sh --full-clone goblint
+curl https://raw.github.com/xsc/goblint-quickinstall/master/quick-install.sh > install.sh && bash install.sh --full-clone goblint
 ```
 This will create a full clone of the Goblint Repository in the ```goblint``` subdirectory. 
 (OPAM will be installed, too).
