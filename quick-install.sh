@@ -144,6 +144,7 @@ install_opam "camomile"  "0.8.3"
 install_opam "batteries" "1.5.0"
 install_opam "cil"       "1.5.1"
 install_opam "xml-light" "2.2"
+eval `opam config env`
 
 # --------------------------------------------------------------
 # Fetch Goblint
